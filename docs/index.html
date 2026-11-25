@@ -21,6 +21,24 @@
     <section class="section" id="projects" aria-labelledby="projects-title"><div class="section-head"><div><span class="section-number mono">01 / SELECTED WORK</span><h2 id="projects-title">正在做的事。</h2></div><p>从一个具体的问题，到一个可以运行的项目。</p></div>
       <!-- 新增项目时，可复制下面的 article.project，修改项目名称、介绍、链接和硬件信息。 -->
       <article class="project"><div class="project-top"><div><span class="pill mono">EMBEDDED / OPEN SOURCE</span><h3>Netmate</h3><p class="subtitle">让路由器的状态，一眼可见。</p><p class="description">一台基于 STM32F411 的 OpenWrt 路由器状态监控仪表盘。通过 ESP-01S 连接路由器，把网络与系统信息呈现在桌面上的 2.8 英寸触控屏里。</p><div class="tags"><span>STM32F411</span><span>ESP-01S</span><span>LVGL</span><span>FreeRTOS</span><span>CMake</span><span>C</span></div><div class="project-actions"><a class="textlink" href="https://github.com/ryoth13/Netmate" target="_blank" rel="noopener noreferrer">查看源码 ↗</a><a class="textlink" href="https://github.com/ryoth13/Netmate#readme" target="_blank" rel="noopener noreferrer">阅读项目文档 ↗</a></div></div><div class="features"><div class="feature"><span class="feature-num mono">01</span><div><h4>网络信息，直观呈现</h4><p>查看 Wi-Fi 信号强度、信道和频段，了解当前无线网络状态。</p></div></div><div class="feature"><span class="feature-num mono">02</span><div><h4>路由器运行状态</h4><p>展示 CPU 负载、内存使用率与在线设备数，把关键指标集中到一块屏幕上。</p></div></div><div class="feature"><span class="feature-num mono">03</span><div><h4>触控交互与实时任务</h4><p>使用触控切换信息页面，结合 LVGL 图形界面与 FreeRTOS 任务调度。</p></div></div></div></div><div class="project-bottom"><div class="spec"><small>核心处理器</small><b class="mono">STM32F411CEU6</b></div><div class="spec"><small>显示与触控</small><b>ILI9341 · 320 × 240</b></div><div class="spec"><small>无线连接</small><b class="mono">ESP-01S / AT</b></div><div class="spec"><small>开发环境</small><b>Windows / macOS / Linux</b></div></div></article>
+      <article class="project" id="parsedatatool" style="margin-top:24px">
+  <div class="project-top">
+    <div>
+      <span class="pill mono">WEB TOOL / DATA PARSING</span>
+      <h3>ParseDataTool</h3>
+      <p class="subtitle">把常用的数据处理，放进一个网页。</p>
+      <p class="description">我制作的在线数据解析与处理工具，将开发中常用的格式转换、浮点数处理、校验与数据整理集中在同一个页面。输入待处理数据，选择对应功能，即可查看处理结果。</p>
+      <div class="tags"><span>ASC / HEX</span><span>浮点数</span><span>CS + 帧尾</span><span>数据加解密</span><span>数据整理</span></div>
+      <div class="buttons"><a class="btn" href="https://ryoth13.github.io/parsedatatool/tool.html" target="_blank" rel="noopener noreferrer">打开在线工具 <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="features">
+      <div class="feature"><span class="feature-num mono">01</span><div><h4>常见数据转换</h4><p>集中提供 ASC/HEX 与浮点数相关处理，方便查看和转换开发中遇到的数据。</p></div></div>
+      <div class="feature"><span class="feature-num mono">02</span><div><h4>校验与加解密</h4><p>提供 CS+帧尾和数据加解密功能，便于处理通信调试中的数据。</p></div></div>
+      <div class="feature"><span class="feature-num mono">03</span><div><h4>数据整理，一处完成</h4><p>在输入与输出区域之间完成处理，减少多个工具来回切换的步骤。</p></div></div>
+    </div>
+  </div>
+  <div class="project-bottom"><div class="spec"><small>项目类型</small><b>在线实用工具</b></div><div class="spec"><small>使用方式</small><b>浏览器直接打开</b></div><div class="spec"><small>主要用途</small><b>数据处理与通信调试</b></div><div class="spec"><small>访问入口</small><b class="mono">/parsedatatool/tool.html</b></div></div>
+</article>
       <div class="next"><span class="plus" aria-hidden="true">＋</span><div><b>下一个想法，正在路上。</b><p>更多项目与制作记录，会陆续加入这里。</p></div></div>
     </section>
     <section class="section about" id="about" aria-labelledby="about-title"><div><span class="section-number mono">02 / ABOUT THIS SPACE</span><h2 id="about-title">代码之外，<br>还有动手的乐趣。</h2><div class="about-links"><a class="textlink" href="https://github.com/ryoth13" target="_blank" rel="noopener noreferrer">在 GitHub 找到我 ↗</a></div></div><div><p>这里是 ryo 的个人项目空间，用来展示自己动手完成的作品，也为每一个持续改进的想法留下记录。</p><p>目前从 Netmate 开始：把嵌入式开发、无线连接和图形界面组合起来，让原本藏在后台的数据变得触手可及。项目的源码、硬件信息和开发说明都可以在 GitHub 仓库中找到。</p><div class="stack"><span>嵌入式开发</span><span>图形界面</span><span>软硬件实践</span><span>项目记录</span></div><div class="endnote">有兴趣了解实现细节？欢迎前往项目仓库查看代码，或通过 GitHub Issues 交流。</div></div></section>
